@@ -1,0 +1,31 @@
+# Ant
+#product/lib64/com.qualcomm.qti.ant@1.0.so
+#product/lib/com.qualcomm.qti.ant@1.0.so
+
+# Audio
+lib/hw/audio.playback_record.default.so
+lib/hw/audio.tms.default.so
+# lib/hw/audio.hearing_aid.default.so
+lib/hw/audio.a2dp.default.so
+# lib/libsecaudiocoreutils.so
+
+# Bluetooth - APT-X
+lib64/libaptX_encoder.so
+
+# Hotword Enrollment
+-priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk
+-priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk
+
+# IMS
+# product/lib64/vendor.qti.imsrtpservice@2.0.so
+# product/lib64/vendor.qti.imsrtpservice@2.1.so
+# product/lib/vendor.qti.imsrtpservice@2.0.so
+# product/lib/vendor.qti.imsrtpservice@2.1.so
+#-priv-app/ims/ims.apk
+-priv-app/imsservice/imsservice.apk
+
+# Permissions
+# etc/permissions/privapp-permissions-qti.xml
+# etc/permissions/qti_telephony_hidl_wrapper.xml
+etc/sysconfig/qti_whitelist.xml
+
